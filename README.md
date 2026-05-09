@@ -31,4 +31,4 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/victorlaranjeira/aplicacao-de-tarefas.git](https://github.com/seu-usuario/aplicacao-de-tarefas.git)
+   git clone [https://github.com/victorlaranjeira/aplicacao-de-tarefas.git]
