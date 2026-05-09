@@ -1,0 +1,72 @@
+:root {
+  --bg-body: #121214;
+  --bg-card: #202024;
+  --text-main: #e1e1e6;
+  --primary: #8257e5;
+  --danger: #f75a68;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+nav {
+  background: var(--bg-card);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid #323238;
+}
+
+nav a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.task-card {
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #323238;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.btn-edit { background: var(--primary); color: white; margin-right: 5px; }
+.btn-del { background: var(--danger); color: white; }
+button:hover { opacity: 0.8; }
+
+input[type="text"] {
+  background: #121214;
+  border: 1px solid #323238;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 4px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
